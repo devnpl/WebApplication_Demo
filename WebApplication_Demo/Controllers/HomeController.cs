@@ -10,8 +10,8 @@ namespace WebApplication_Demo.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-            //return "This is me Dev";
+           return View();
+            
         }
 
         public ActionResult About()
