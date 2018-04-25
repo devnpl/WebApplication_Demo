@@ -10,15 +10,23 @@ namespace WebApplication_Demo.Controllers
     {
         public ActionResult Index()
         {
+           
            return View();
-            
+
+            ViewBag.Title = "This is me";
+
+
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
+            ViewBag.Name = "Dev";
+
             return View();
+
+            
         }
 
         public ActionResult Contact()
