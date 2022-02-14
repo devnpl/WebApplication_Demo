@@ -14,6 +14,8 @@ namespace Understanding_C_Sharp_Basic
         // Regular method that matches signature:    // double multiByTwo() 
         static double Double(double input)
         {
+            input *= 100;
+
             return input * 2;
         }
 
